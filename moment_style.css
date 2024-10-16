@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+#container {
+    margin: auto;
+    width: 90vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+}
+
+#clockBox{
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    padding: 3px;
+}
+
+#clock {
+    padding: 10px 15px;
+    background-color: black;
+}
+
+#timeElem {
+    padding: 0px;
+    margin: 0px;    
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px;
+    width: 280px;
+}
+
+#buttonBox{
+    padding: 10px 0px;
+}
+
+.buttons{
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 5px;
+}
+
+#resume{
+    display: none;
+}
+
+#pause{
+    display: none;
+}
+
+#restart{
+    display: none;
+}
+
+.buttons{
+    font-size: 40px;
+}abody {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+#container {
+    margin: auto;
+    width: 90vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+}
+
+#clockBox{
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    padding: 3px;
+}
+
+#clock {
+    padding: 10px 15px;
+    background-color: black;
+}
+
+#timeElem {
+    padding: 0px;
+    margin: 0px;    
+    text-align: center;
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+}
+
+#buttonBox{
+    padding: 10px 0px;
+}
+
+.buttons{
+    background: linear-gradient(to right, rgb(255, 0, 255) 0%, yellow 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 5px;
+}
+
+#resume{
+    display: none;
+}
+
+#pause{
+    display: none;
+}
+
+#restart{
+    display: none;
+}
+
+.buttons{
+    font-size: 40px;
+}
+
+@media (max-width:400px){
+    #timeElem{
+        font-size: 40px;
+    }
+    .buttons{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px){
+    #timeElem{
+        font-size: 40px;
+        width: 180px;
+    }
+    .buttons{
+        font-size: 35px;
+    }
+}
